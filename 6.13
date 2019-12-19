@@ -1,0 +1,19 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+main(){
+	int n=1;
+	int number;
+	float rfn,y;
+
+	cout<<"how many numbers u want to enter";
+	cin>>number;
+	while(n<=number){
+		cout<<"enter number to round off to nearest integer";
+		cin>>rfn;
+		cout<<rfn<<" original number\n";
+		y = floor(rfn + 0.5);
+		cout<<y<<" is round off integer\n";
+		n++;
+	}
+}
