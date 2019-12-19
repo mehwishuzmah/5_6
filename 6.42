@@ -1,0 +1,20 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+double distanceBtwPoints(double x,double y,double a,double b){
+	return sqrt(pow(x-a,2)+pow(y-b,2));
+}
+main(){
+	double x,y,a,b;
+	cout<<"enter points for the coordinates:\n";
+	cout<<"point x for 1st coordinate";
+	cin>>x;
+		cout<<"point y for 1st coordinate";
+	cin>>y;
+	
+		cout<<"point x for 2nd coordinate";
+		cin>>a;
+			cout<<"point y for 2nd coordinate";
+			cin>>b;
+			cout<<"the distance btw points is "<<distanceBtwPoints(x,y,a,b);
+		}
