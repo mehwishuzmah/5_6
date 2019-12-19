@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int power(int base,int exp){
+	int n=1,result=1;
+	while(n<=exp){
+		result=result*base;
+		n++;
+	}
+	return result;
+}
+main(){
+	int b,e;
+	cout<<"enter base number";
+	cin>>b;
+	cout<<"enter exponent number";
+	cin>>e;
+cout<<b<<"^"<<e<<"="<<power(b,e);
+}
