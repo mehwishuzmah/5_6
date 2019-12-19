@@ -1,0 +1,19 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int asteriks(int w,int h,char fillcharacter){
+	for(int i=1;i<=h;i++){
+		for(int j=1;j<=w;j++){
+			cout<<fillcharacter;
+		}
+		cout<<"\n";
+	}
+}
+main(){
+	int w,h;
+	char fc;
+	cout<<"enter width and height for square and fill character symbol";
+	cin>>w>>h>>fc;
+	
+	asteriks(w,h,fc);
+}
