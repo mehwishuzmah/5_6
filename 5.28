@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+main(){
+const char *num_day[]={"-","First","Second","Third","Fourth","Fifth","Sixth","Seventh","Eighth","Ninth","tenth","Eleventh","Twelveth"};
+	
+	for(int day=1;day<=12;day++){
+		cout<<"on the "<<num_day[day]<<"day of christmas, my true love gave to me:\n";
+		switch(day){
+			
+	case 12:cout<<"	twelve Drummers Drumming\n";
+	case 11:cout<<"elevenPipers Piping\n";
+    case 10:cout<<"tenLords a Leaping\n";
+	case 9:cout<<"nine Ladies Dancing\n";
+	case 8:cout<<"eight Maids a Milking\n";
+	case 7:cout<<"seven Swans a Swimming\n";
+	case 6:cout<<"six Geese a Laying\n";
+	case 5:cout<<"five Golden Rings\n";
+	case 4:cout<<"four Calling Birds\n";
+	case 3:cout<<"three French Hens\n";
+	case 2:cout<<"two Turtle Doves\n";
+	case 1:cout<<"A Partridge in a Pear Tree\n";
+
+		}
+	}
+}
