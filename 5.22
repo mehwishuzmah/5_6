@@ -1,0 +1,15 @@
+//De Morgan's law
+#include<iostream>
+using namespace std;
+main(){
+	int x=5,y=3;
+	!(x <= 6) && !(y %2==1);
+	
+	cout<<"	!(x <= 6) && !(y %2==1) for this condition the answer of x & y is "; 
+	cout<<x<<" "<<y<<"\n";
+
+   !(x<=6||y%2==1);
+    cout<<"!(x<=6||y%2==1) the answer of x & y is ";
+     cout<<x<<" "<<y;
+     cout<<"\nthe answer is same";
+        }
