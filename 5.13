@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+main(){
+	long f=1,c=1,n=1;
+	cout<<"number \t factorial\n";
+	while(n<=20){
+		f=f*n;
+		cout<<n<<"\t"<<f<<"\n";
+		n++;
+	}
+}
+	
