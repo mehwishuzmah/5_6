@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+main(){
+	int n=3;
+	int pro=1;
+	while(n<=50){
+		if(n%3==0){
+			pro=pro*n;
+		}
+		n++;
+	}
+	cout<<"product of multiple of 3 is "<<pro;
+}
