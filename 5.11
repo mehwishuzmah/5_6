@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int num;
+
+	int values;
+	int min;
+	
+	cout<<"how many numbers u want to enter";
+	cin>>num;
+
+		cout<<"enter values";
+		cin>>min;
+		
+   while(--num){
+   	
+   cout<<"enter values ";
+   cin>>values;
+		if(values<min)
+		
+			min=values;
+	
+		
+	
+	}
+		cout<<"the smallest number is "<<min;
+		return 0;
+	}
